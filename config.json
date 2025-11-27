@@ -1,0 +1,50 @@
+{
+  "analyzer_config": {
+    "version": "1.0.0",
+    "name": "Multi-Annotator Label Conflict Analyzer",
+    "description": "Detects, analyzes, and resolves labeling inconsistencies in datasets"
+  },
+  "conflict_patterns": {
+    "positive_vs_negative": "Strong sentiment disagreement - text may contain mixed opinions",
+    "positive_vs_neutral": "Mixed signal - text has positive elements but lacks strong positivity",
+    "negative_vs_neutral": "Severity interpretation - text has negative aspects but not overwhelmingly",
+    "three_way_conflict": "High ambiguity - text has multiple conflicting signals"
+  },
+  "text_analysis": {
+    "positive_indicators": [
+      "excellent", "amazing", "perfect", "love", "great", "fantastic",
+      "outstanding", "wonderful", "awesome", "highly", "best", "impressed",
+      "smooth", "responsive", "reliable", "durable", "comfortable",
+      "lightweight", "powerful", "efficient", "impressive", "beautiful",
+      "clean", "easy", "quick", "fast", "stable"
+    ],
+    "negative_indicators": [
+      "terrible", "horrible", "worst", "broken", "damaged", "rude", "slow",
+      "disappointing", "poor", "cheap", "defective", "stopped", "failed",
+      "unstable", "irritation", "distorted", "painful", "shrunk", "overpriced",
+      "difficult", "heavy", "weak", "noise", "issue", "problem", "bug"
+    ],
+    "neutral_indicators": [
+      "okay", "fine", "average", "decent", "normal", "reasonable",
+      "acceptable", "basic", "standard", "expected", "adequate"
+    ]
+  },
+  "confidence_thresholds": {
+    "high": 0.8,
+    "medium": 0.5,
+    "low": 0.0
+  },
+  "output_settings": {
+    "indent_json": 2,
+    "save_conflict_only": true,
+    "generate_reports": true,
+    "log_level": "INFO"
+  },
+  "report_settings": {
+    "generate_detailed": true,
+    "generate_conflict_focused": true,
+    "generate_metrics": true,
+    "include_examples": true,
+    "max_examples_per_type": 3
+  }
+}

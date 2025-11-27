@@ -1,0 +1,10 @@
+{
+  "total_samples": 100,
+  "conflict_count": 10,
+  "conflict_rate": 10.0,
+  "suggested_labels_summary": {
+    "Positive": 47,
+    "Negative": 33,
+    "Neutral": 20
+  }
+}
