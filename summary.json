@@ -1,0 +1,9 @@
+{
+  "total_samples": 100,
+  "per_label": {
+    "Positive": 47,
+    "Negative": 30,
+    "Neutral": 23
+  },
+  "conflicts_count": 10
+}
