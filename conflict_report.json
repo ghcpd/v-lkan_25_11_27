@@ -1,0 +1,44 @@
+{
+  "total_samples": 100,
+  "conflicted_samples": 10,
+  "conflict_percentage": 10.0,
+  "average_confidence": 0.962,
+  "summary": {
+    "total_samples_analyzed": 100,
+    "samples_with_conflicts": 10,
+    "conflict_percentage": "10.0%",
+    "average_confidence_score": 0.962
+  },
+  "annotator_agreement_statistics": {
+    "A1-A2": 0.923,
+    "A1-A3": 0.889,
+    "A2-A3": 0.889
+  },
+  "top_conflict_reasons": [
+    {
+      "reason": "Ambiguous language - statements could be interpreted multiple ways",
+      "frequency": 6,
+      "percentage": "6.00%"
+    },
+    {
+      "reason": "Disagreement on intensity - some view as positive, others as neutral/moderate",
+      "frequency": 5,
+      "percentage": "5.00%"
+    },
+    {
+      "reason": "Disagreement on intensity - some view as negative, others as neutral/moderate",
+      "frequency": 4,
+      "percentage": "4.00%"
+    },
+    {
+      "reason": "Context-dependent interpretation - meaning relies on prior experience or expectations",
+      "frequency": 2,
+      "percentage": "2.00%"
+    },
+    {
+      "reason": "Mixed sentiment detected - text contains both positive and negative aspects",
+      "frequency": 1,
+      "percentage": "1.00%"
+    }
+  ]
+}
