@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  analyzer:
+    build: .
+    container_name: label-conflict-analyzer
+    volumes:
+      - ./output:/app/output
+      - ./reports:/app/reports
+      - ./text_label.jsonl:/app/text_label.jsonl:ro
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+    command: python src/pipeline.py --input text_label.jsonl --output output
+
+  # Optional: Test service
+  tests:
+    build: .
+    container_name: label-analyzer-tests
+    volumes:
+      - ./reports:/app/reports
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python -m pytest tests/test_conflict_analyzer.py -v --junit-xml=reports/test_results.xml

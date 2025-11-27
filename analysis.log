@@ -1,0 +1,162 @@
+2025-11-27 11:03:52,103 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmpwr3zhgp_\test.json
+2025-11-27 11:03:52,115 - src.data_handler - INFO - Loaded JSON from C:\Users\v-lkan\AppData\Local\Temp\tmpwr3zhgp_\test.json
+2025-11-27 11:03:52,120 - src.data_handler - INFO - Saved 2 items to C:\Users\v-lkan\AppData\Local\Temp\tmp12m9eb4o\test.jsonl
+2025-11-27 11:03:52,136 - src.data_handler - INFO - Loaded 2 samples from C:\Users\v-lkan\AppData\Local\Temp\tmp12m9eb4o\test.jsonl
+2025-11-27 11:03:52,142 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\test_input.jsonl
+2025-11-27 11:03:52,143 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,144 - src.pipeline - INFO - Starting Label Conflict Analysis Pipeline
+2025-11-27 11:03:52,144 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,144 - src.pipeline - INFO - 
+[Step 1] Loading data from C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\test_input.jsonl
+2025-11-27 11:03:52,157 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\test_input.jsonl
+2025-11-27 11:03:52,258 - src.pipeline - INFO - 
+[Step 2] Analyzing samples for label conflicts
+2025-11-27 11:03:52,260 - src.pipeline - INFO - 
+[Step 3] Extracting conflict samples
+2025-11-27 11:03:52,262 - src.pipeline - INFO - 
+[Step 4] Saving results
+2025-11-27 11:03:52,264 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,264 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\output\conflict_samples.jsonl
+2025-11-27 11:03:52,269 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmpqjy85fqk\output\analysis_summary.json
+2025-11-27 11:03:52,271 - src.pipeline - INFO - 
+[Step 5] Generating analysis reports
+2025-11-27 11:03:52,274 - src.report_generator - INFO - Detailed report saved to reports/detailed_analysis_report.md
+2025-11-27 11:03:52,275 - src.report_generator - INFO - Conflict report saved to reports/conflict_analysis_report.md
+2025-11-27 11:03:52,276 - src.report_generator - INFO - Metrics report saved to reports/evaluation_metrics_report.md
+2025-11-27 11:03:52,280 - src.pipeline - INFO - 
+[Step 6] Analysis Statistics
+2025-11-27 11:03:52,280 - src.pipeline - INFO -   Total Samples: 3
+2025-11-27 11:03:52,280 - src.pipeline - INFO -   Conflicting Samples: 1
+2025-11-27 11:03:52,280 - src.pipeline - INFO -   Conflict Rate: 33.33%
+2025-11-27 11:03:52,281 - src.pipeline - INFO - 
+================================================================================
+2025-11-27 11:03:52,281 - src.pipeline - INFO - Analysis Pipeline Completed Successfully!
+2025-11-27 11:03:52,281 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,285 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\test_input.jsonl
+2025-11-27 11:03:52,285 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,285 - src.pipeline - INFO - Starting Label Conflict Analysis Pipeline
+2025-11-27 11:03:52,285 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,287 - src.pipeline - INFO - 
+[Step 1] Loading data from C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\test_input.jsonl
+2025-11-27 11:03:52,289 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\test_input.jsonl
+2025-11-27 11:03:52,293 - src.pipeline - INFO - 
+[Step 2] Analyzing samples for label conflicts
+2025-11-27 11:03:52,296 - src.pipeline - INFO - 
+[Step 3] Extracting conflict samples
+2025-11-27 11:03:52,300 - src.pipeline - INFO - 
+[Step 4] Saving results
+2025-11-27 11:03:52,302 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,305 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\output\conflict_samples.jsonl
+2025-11-27 11:03:52,306 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmpspmbgni8\output\analysis_summary.json
+2025-11-27 11:03:52,310 - src.pipeline - INFO - 
+[Step 5] Generating analysis reports
+2025-11-27 11:03:52,311 - src.report_generator - INFO - Detailed report saved to reports/detailed_analysis_report.md
+2025-11-27 11:03:52,312 - src.report_generator - INFO - Conflict report saved to reports/conflict_analysis_report.md
+2025-11-27 11:03:52,313 - src.report_generator - INFO - Metrics report saved to reports/evaluation_metrics_report.md
+2025-11-27 11:03:52,316 - src.pipeline - INFO - 
+[Step 6] Analysis Statistics
+2025-11-27 11:03:52,316 - src.pipeline - INFO -   Total Samples: 3
+2025-11-27 11:03:52,316 - src.pipeline - INFO -   Conflicting Samples: 1
+2025-11-27 11:03:52,316 - src.pipeline - INFO -   Conflict Rate: 33.33%
+2025-11-27 11:03:52,318 - src.pipeline - INFO - 
+================================================================================
+2025-11-27 11:03:52,318 - src.pipeline - INFO - Analysis Pipeline Completed Successfully!
+2025-11-27 11:03:52,318 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,328 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\test.jsonl
+2025-11-27 11:03:52,329 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,329 - src.pipeline - INFO - Starting Label Conflict Analysis Pipeline
+2025-11-27 11:03:52,329 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,331 - src.pipeline - INFO - 
+[Step 1] Loading data from C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\test.jsonl
+2025-11-27 11:03:52,343 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\test.jsonl
+2025-11-27 11:03:52,354 - src.pipeline - INFO - 
+[Step 2] Analyzing samples for label conflicts
+2025-11-27 11:03:52,358 - src.pipeline - INFO - 
+[Step 3] Extracting conflict samples
+2025-11-27 11:03:52,360 - src.pipeline - INFO - 
+[Step 4] Saving results
+2025-11-27 11:03:52,361 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,362 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\output\conflict_samples.jsonl
+2025-11-27 11:03:52,363 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmpk6za4shw\output\analysis_summary.json
+2025-11-27 11:03:52,365 - src.pipeline - INFO - 
+[Step 5] Generating analysis reports
+2025-11-27 11:03:52,365 - src.report_generator - INFO - Detailed report saved to reports/detailed_analysis_report.md
+2025-11-27 11:03:52,365 - src.report_generator - INFO - Conflict report saved to reports/conflict_analysis_report.md
+2025-11-27 11:03:52,365 - src.report_generator - INFO - Metrics report saved to reports/evaluation_metrics_report.md
+2025-11-27 11:03:52,373 - src.pipeline - INFO - 
+[Step 6] Analysis Statistics
+2025-11-27 11:03:52,373 - src.pipeline - INFO -   Total Samples: 3
+2025-11-27 11:03:52,373 - src.pipeline - INFO -   Conflicting Samples: 1
+2025-11-27 11:03:52,373 - src.pipeline - INFO -   Conflict Rate: 33.33%
+2025-11-27 11:03:52,373 - src.pipeline - INFO - 
+================================================================================
+2025-11-27 11:03:52,373 - src.pipeline - INFO - Analysis Pipeline Completed Successfully!
+2025-11-27 11:03:52,373 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,377 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\test.jsonl
+2025-11-27 11:03:52,378 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,378 - src.pipeline - INFO - Starting Label Conflict Analysis Pipeline
+2025-11-27 11:03:52,378 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,379 - src.pipeline - INFO - 
+[Step 1] Loading data from C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\test.jsonl
+2025-11-27 11:03:52,379 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\test.jsonl
+2025-11-27 11:03:52,382 - src.pipeline - INFO - 
+[Step 2] Analyzing samples for label conflicts
+2025-11-27 11:03:52,384 - src.pipeline - INFO - 
+[Step 3] Extracting conflict samples
+2025-11-27 11:03:52,386 - src.pipeline - INFO - 
+[Step 4] Saving results
+2025-11-27 11:03:52,387 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,388 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\output\conflict_samples.jsonl
+2025-11-27 11:03:52,391 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmpd8t_ftmy\output\analysis_summary.json
+2025-11-27 11:03:52,391 - src.pipeline - INFO - 
+[Step 5] Generating analysis reports
+2025-11-27 11:03:52,395 - src.report_generator - INFO - Detailed report saved to reports/detailed_analysis_report.md
+2025-11-27 11:03:52,395 - src.report_generator - INFO - Conflict report saved to reports/conflict_analysis_report.md
+2025-11-27 11:03:52,396 - src.report_generator - INFO - Metrics report saved to reports/evaluation_metrics_report.md
+2025-11-27 11:03:52,398 - src.pipeline - INFO - 
+[Step 6] Analysis Statistics
+2025-11-27 11:03:52,398 - src.pipeline - INFO -   Total Samples: 3
+2025-11-27 11:03:52,398 - src.pipeline - INFO -   Conflicting Samples: 1
+2025-11-27 11:03:52,398 - src.pipeline - INFO -   Conflict Rate: 33.33%
+2025-11-27 11:03:52,398 - src.pipeline - INFO - 
+================================================================================
+2025-11-27 11:03:52,398 - src.pipeline - INFO - Analysis Pipeline Completed Successfully!
+2025-11-27 11:03:52,398 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,399 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\test.jsonl
+2025-11-27 11:03:52,399 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,399 - src.pipeline - INFO - Starting Label Conflict Analysis Pipeline
+2025-11-27 11:03:52,399 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,399 - src.pipeline - INFO - 
+[Step 1] Loading data from C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\test.jsonl
+2025-11-27 11:03:52,399 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\test.jsonl
+2025-11-27 11:03:52,406 - src.pipeline - INFO - 
+[Step 2] Analyzing samples for label conflicts
+2025-11-27 11:03:52,410 - src.pipeline - INFO - 
+[Step 3] Extracting conflict samples
+2025-11-27 11:03:52,411 - src.pipeline - INFO - 
+[Step 4] Saving results
+2025-11-27 11:03:52,413 - src.data_handler - INFO - Saved 3 items to C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,413 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\output\conflict_samples.jsonl
+2025-11-27 11:03:52,415 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\output\analysis_summary.json
+2025-11-27 11:03:52,418 - src.pipeline - INFO - 
+[Step 5] Generating analysis reports
+2025-11-27 11:03:52,419 - src.report_generator - INFO - Detailed report saved to reports/detailed_analysis_report.md
+2025-11-27 11:03:52,419 - src.report_generator - INFO - Conflict report saved to reports/conflict_analysis_report.md
+2025-11-27 11:03:52,420 - src.report_generator - INFO - Metrics report saved to reports/evaluation_metrics_report.md
+2025-11-27 11:03:52,423 - src.pipeline - INFO - 
+[Step 6] Analysis Statistics
+2025-11-27 11:03:52,423 - src.pipeline - INFO -   Total Samples: 3
+2025-11-27 11:03:52,423 - src.pipeline - INFO -   Conflicting Samples: 1
+2025-11-27 11:03:52,423 - src.pipeline - INFO -   Conflict Rate: 33.33%
+2025-11-27 11:03:52,423 - src.pipeline - INFO - 
+================================================================================
+2025-11-27 11:03:52,423 - src.pipeline - INFO - Analysis Pipeline Completed Successfully!
+2025-11-27 11:03:52,423 - src.pipeline - INFO - ================================================================================
+2025-11-27 11:03:52,433 - src.data_handler - INFO - Loaded 3 samples from C:\Users\v-lkan\AppData\Local\Temp\tmp6z6mtrsu\output\all_analysis_results.jsonl
+2025-11-27 11:03:52,442 - src.data_handler - INFO - Saved 1 items to C:\Users\v-lkan\AppData\Local\Temp\tmpqiazlb2b\incremental.jsonl
+2025-11-27 11:03:52,443 - src.data_handler - INFO - Saved 2 items to C:\Users\v-lkan\AppData\Local\Temp\tmpqiazlb2b\incremental.jsonl
+2025-11-27 11:03:52,447 - src.data_handler - INFO - Loaded 2 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpqiazlb2b\incremental.jsonl
+2025-11-27 11:03:52,456 - src.data_handler - INFO - Saved JSON to C:\Users\v-lkan\AppData\Local\Temp\tmp9_41sbi6\data.json
+2025-11-27 11:03:52,461 - src.data_handler - INFO - Loaded JSON from C:\Users\v-lkan\AppData\Local\Temp\tmp9_41sbi6\data.json
+2025-11-27 11:03:52,471 - src.data_handler - INFO - Saved 2 items to C:\Users\v-lkan\AppData\Local\Temp\tmpnuyvr3c7\persist.jsonl
+2025-11-27 11:03:52,481 - src.data_handler - INFO - Loaded 2 samples from C:\Users\v-lkan\AppData\Local\Temp\tmpnuyvr3c7\persist.jsonl
